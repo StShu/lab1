@@ -9,7 +9,7 @@ FLAGS =-Wall -std=c++11
 all: $(BIN_DIR)/main
 
 $(BIN_DIR)/main: $(BUILD_DIR)/main.o $(BUILD_DIR)/lab1.o
-	g++ $(FLAGS) $(BUILD_DIR)/main.o $(BUILD_DIR)/functions.o -o $(BIN_DIR)/main
+	g++ $(FLAGS) $(BUILD_DIR)/main.o $(BUILD_DIR)/lab1.o -o $(BIN_DIR)/main
 
 $(BUILD_DIR)/main.o:
 	g++ $(FLAGS) -c $(SRC_DIR)/lab1.cpp -o $(BUILD_DIR)/main.o
