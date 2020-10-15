@@ -89,6 +89,7 @@ StyleCopReport.xml
 *.user
 *.filters
 *.vcxproj
+*.sln
 
 
 # Chutzpah Test files
