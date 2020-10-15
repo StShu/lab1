@@ -5,5 +5,5 @@ using namespace std;
 int main()
 {
     cout << 'hi' << endl;
-    syste("pause");
+    system("pause");
 }
