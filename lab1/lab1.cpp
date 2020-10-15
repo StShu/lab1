@@ -1,7 +1,13 @@
 ﻿#include <iostream>
 
+using namespace std;
 int main()
 {
-    std::cout << "Hello World!\n";
+    int n;
+    cout << "Hello World!\n";
+    cout << "Hello World!\n";
+    cin >> n;
+    system("PAUSE");
+
 }
 
