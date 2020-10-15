@@ -14,7 +14,7 @@ $(BIN_DIR)/main: $(BUILD_DIR)/main.o $(BUILD_DIR)/lab1.o
 $(BUILD_DIR)/main.o:
 	g++ $(FLAGS) -c $(SRC_DIR)/lab1.cpp -o $(BUILD_DIR)/main.o
 
-$(BUILD_DIR)/functions.o:
+$(BUILD_DIR)/lab1.o:
 	g++ $(FLAGS) -c $(SRC_DIR)/lab1.cpp -o $(BUILD_DIR)/lab1.o
 
 
