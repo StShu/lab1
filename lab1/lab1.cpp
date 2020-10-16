@@ -9,7 +9,6 @@ int sum(int x, int y)
 
 int main()
 {
-    cout << sum(3, 3);  
-
+    int summ = sum(1, 1);
     system("pause");
 }
